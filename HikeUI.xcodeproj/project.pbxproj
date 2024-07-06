@@ -11,6 +11,8 @@
 		4A26340F2C3963920092E795 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A26340E2C3963920092E795 /* ContentView.swift */; };
 		4A2634112C3963940092E795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A2634102C3963940092E795 /* Assets.xcassets */; };
 		4A2634142C3963940092E795 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A2634132C3963940092E795 /* Preview Assets.xcassets */; };
+		4A2634212C3964630092E795 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2634202C3964630092E795 /* Hike.swift */; };
+		4A2634232C3969790092E795 /* HikeDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2634222C3969790092E795 /* HikeDetailsScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		4A26340E2C3963920092E795 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4A2634102C3963940092E795 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A2634132C3963940092E795 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4A2634202C3964630092E795 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
+		4A2634222C3969790092E795 /* HikeDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeDetailsScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				4A26340E2C3963920092E795 /* ContentView.swift */,
 				4A2634102C3963940092E795 /* Assets.xcassets */,
 				4A2634122C3963940092E795 /* Preview Content */,
+				4A2634202C3964630092E795 /* Hike.swift */,
+				4A2634222C3969790092E795 /* HikeDetailsScreen.swift */,
 			);
 			path = HikeUI;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A2634212C3964630092E795 /* Hike.swift in Sources */,
+				4A2634232C3969790092E795 /* HikeDetailsScreen.swift in Sources */,
 				4A26340F2C3963920092E795 /* ContentView.swift in Sources */,
 				4A26340D2C3963920092E795 /* HikeUIApp.swift in Sources */,
 			);
